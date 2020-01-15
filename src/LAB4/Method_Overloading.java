@@ -14,7 +14,7 @@ public class Method_Overloading {
         return x + y;
 
     }
-    public static  int Sum(double x,double y){
-        return x+y;
+    public static  double Sum(double x,double y){
+        return x + y;
     }
-}
+}//class
