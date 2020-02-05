@@ -5,7 +5,7 @@ public class Dog {
     private String name;
     private int age;
     private String hairColor;
-    //constructor คือเมธอดที่มีชื่อเดียวกันกับชื่อคลาส เมื่อมีการสร้างวัตถุ จะเป็นดารเรียกใช้งาน แนืหะพีแะนพ เสมอ
+    //constructor คือเมธอดที่มีชื่อเดียวกันกับชื่อคลาส เมื่อมีการสร้างวัตถุ จะเป็นดารเรียกใช้งาน  เสมอ
     //1. default constructor
     public Dog(){}
     //2.constructor ที่สร้างขึ้นมาใหม่
@@ -28,7 +28,7 @@ public class Dog {
     }
 
     //getter and setter methods ใช้สำหรับการอ่านและปรับปรุงข้อมูลใน attributes ของคลาส
-    //getter .ช้อ่านข้อมูล
+    //getter ใช้อ่านข้อมูล
     //setter ใช้ปรังปรุงหรือเปลี่ยนแปลงข้อมูล
     public String getName(){
         return this.name;
