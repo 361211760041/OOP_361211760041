@@ -1,8 +1,15 @@
 package LAB8;
 
 public class Student extends Person{
+    //คลาส Student สืบทาดจากคลาส Person
     private String stdID;
     private String program;
+
+    public  Student(String id, String name, String stdID,String program){
+        super(id, name);
+        this.stdID=stdID;
+        this.program=program;
+    }
 
     //getter and setter
 
@@ -28,13 +35,9 @@ public class Student extends Person{
                 '}';
     }
 
-    public Student(String id, String name,
-                   String stdID, String program) {
-        super(id, name);
-        this.stdID=stdID;
-        this.program=program;
+
 
 
 
     }
-}
+

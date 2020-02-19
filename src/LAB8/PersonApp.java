@@ -12,5 +12,8 @@ public class PersonApp {
 
         System.out.println(stdl.getName());
         System.out.println(p1.getName());
+
+        System.out.println(stdl.toString());
+        System.out.println(p1.toString());
     }
 }
